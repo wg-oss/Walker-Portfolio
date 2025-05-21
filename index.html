@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-image-container">
+                <img src="https://i.imgur.com/glLbRIc.jpeg" alt="Walker Gordillo" class="profile-image">
+            </div>
+            <h1>Hi, I'm <span class="highlight">Walker Gordillo</span></h1>
+            <p class="tagline">Engineering Student</p>
+            <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-preview">
+                    <div class="project-header">
+                        <div class="app-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3>ContractMatch</h3>
+                    </div>
+                    <div class="preview-footer">
+                        <button class="learn-more-btn">Learn More <i class="fas fa-chevron-down"></i></button>
+                        <div class="project-date">Jan 2025 - Present</div>
+                    </div>
+                </div>
+                <div class="project-details">
+                    <div class="project-info">
+                        <p class="project-role">Co-Founder | Startup connecting contractors and realtors</p>
+                        <p class="project-description">Developed a platform to streamline partnerships between real estate agents and contractors, addressing inefficiencies in sourcing reliable collaborators for renovation projects. Focused on user experience, market research, and relationship-driven engagement. Oversaw product development, business model design, and early-stage user outreach to validate need and build traction.</p>
+                        <div class="project-links">
+                            <a href="https://willowy-biscuit-e93014.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <button class="project-link close-details">
+                                <i class="fas fa-times"></i> Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-preview">
+                    <div class="project-header">
+                        <div class="app-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Innov8x Challenge</h3>
+                    </div>
+                    <div class="preview-footer">
+                        <button class="learn-more-btn">Learn More <i class="fas fa-chevron-down"></i></button>
+                        <div class="project-date">Oct 2024</div>
+                    </div>
+                </div>
+                <div class="project-details">
+                    <div class="project-info">
+                        <p class="project-role">Design Challenge Lead | Colorado School of Mines</p>
+                        <p class="project-description">Spearheaded the design and development of a digital solution within the 'Innov8x Carousel of Happiness Challenge', focused on digitizing paper forms and streamlining existing archive management. Transformed inefficient manual processes into an organized digital system, addressing a critical need for operational efficiency and data accessibility.</p>
+                        <div class="project-links">
+                            <a href="https://preview.webflow.com/preview/walkers-ultra-awesome-site-435a61?utm_medium=preview_link&utm_source=designer&utm_content=walkers-ultra-awesome-site-435a61&preview=fb6e4e2729ddf0cb1e908edd9da7ae85&locale=en&workflow=sitePreview" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> View Project
+                            </a>
+                            <button class="project-link close-details">
+                                <i class="fas fa-times"></i> Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm an engineering student at the Colorado School of Mines and a Grewcock Presidential Scholar passionate about environmental innovation, leadership, and the outdoors. I co-founded Contract Match, a startup that connects contractors and realtors to streamline collaboration. I thrive at the intersection of engineering, impact, and people.</p>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <div class="skill-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> <a href="mailto:walkergordillo24@gmail.com">walkergordillo24@gmail.com</a></p>
+                <p><i class="fas fa-phone"></i> <a href="tel:15044216001">(504) 421-6001</a></p>
+                <div class="social-links">
+                    <a href="https://github.com/wg-oss" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/walker-gordillo-02908a2b8" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Walker Gordillo. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
